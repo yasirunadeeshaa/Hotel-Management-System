@@ -3,11 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package com.mycompany.hotelmanagementsystem;
-
-/**
- *
- * @author b.villarini
- */
 public interface HotelManager {
     
     boolean runMenu(); // Run Menu - main function

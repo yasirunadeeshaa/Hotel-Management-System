@@ -40,6 +40,12 @@ public class HotelTableModel extends AbstractTableModel {
                 temp = "Manager";
             } else if (list.get(rowIndex) instanceof HouseKeeper) {
                 temp = "HouseKeeper";
+            }else if (list.get(rowIndex) instanceof Chef) {
+                temp = "Chef";
+            } else if (list.get(rowIndex) instanceof Receptionist) {
+                temp = "Receptionist";
+            } else if (list.get(rowIndex) instanceof Security) {
+                temp = "Security";
             }
         }
         return temp;

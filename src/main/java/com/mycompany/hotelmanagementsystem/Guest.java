@@ -37,6 +37,6 @@ public class Guest{
 
     @Override
     public String toString() {
-        return super.toString() + " Guest - Room number: " + roomNumber + ", Nights stayed: " + nightsStayed;
+        return "Name ;- "+name+ " Guest - Room number: " + roomNumber + ", Nights stayed: " + nightsStayed;
     }
 }

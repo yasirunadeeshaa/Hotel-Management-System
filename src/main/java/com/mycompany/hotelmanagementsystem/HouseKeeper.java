@@ -5,10 +5,13 @@
 package com.mycompany.hotelmanagementsystem;
 
 public class HouseKeeper extends HotelStaff {
+
     private int yearsOfExperience;
 
     public HouseKeeper(String name, String surname) {
+
         super(name, surname);
+
     }
 
     // Setter and Getter methods
